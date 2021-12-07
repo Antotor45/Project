@@ -1,10 +1,11 @@
-#include "motor.h"
+#include "Motors.h"
 
 void setup() {
   Serial.begin(9600);
-  Motor left;
-  Motor right;
+
   Motors motors;
+
+  motors.setup();
   
 }
 

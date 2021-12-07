@@ -1,12 +1,14 @@
+#include "motor.h"
 class Motors {
 
     Motor left;
     Motor right;
 
   public:
-    void setup(Motor leftMotor, Motor rightMotor) {
-      left = leftMotor;
-      right = rightMotor;
+    void setup() {
+      
+      left = Motor();
+      right = Motor();
     }
 
     void advance(int actualSpeed) {
