@@ -5,4 +5,4 @@ Commandes :
   - git commit -m (message)
   - git push
 
-https://prod.liveshare.vsengsaas.visualstudio.com/join?B67F65DA7E3BC1C84296FFF82F6ACF69F499
+https://prod.liveshare.vsengsaas.visualstudio.com/join?7527E6EB653BC2C7937015A024859EB54716
