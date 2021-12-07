@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "windowsSdkVersion": "10.0.19041.0",
+            "compilerPath": "C:/Users/anton/Documents/arduino-cli_0.13.0_Windows_64bit/arduino-cli.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "${default}",
+            "defines": [
+                "ARDUINO=10809",
+                "HAL_UART_MODULE_ENABLED",
+                "STM32F1xx"
+            ]
+        }
+    ],
+    "version": 4
+}
