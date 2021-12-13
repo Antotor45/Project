@@ -16,9 +16,6 @@ public:
                 motors.setSpeed(motors.getSpeed() + 5);
             }
         }
-        if (distance = distanceRobot) {
-            motors.getSpeed(motors.getSpeed() = motors.getSpeed());
-        }
     }
 
 };
