@@ -5,9 +5,12 @@ class Motors {
     Motor right;
 
   public:
-    void setup() {
+    void setup(int pinI1, int pinI2, int pinEA, int pinI3, int pinI4, int pinEB) {
       left = Motor();
       right = Motor();
+
+      left.setup(pinI3, pinI4, pinEB);
+      right.setup(pinI1, pinI2, pinEA);
     }
 
     void advance(int actualSpeed) {
